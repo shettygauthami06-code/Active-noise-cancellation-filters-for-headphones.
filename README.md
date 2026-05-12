@@ -3,9 +3,13 @@ Description:
 This project focuses on the design and implementation of an Active Noise Control (ANC) filter using the Normalized Least Mean Squares algorithm within the domain of digital design, targeting efficient FPGA-based realization. The system is intended for integration into modern headphones, where it actively cancels unwanted ambient noise by generating an anti-noise signal in real time. Such technology is widely used in environments like airplanes, public transport, offices, and crowded urban areas to enhance listening comfort and audio clarity. By using a 16-bit fixed-point architecture and optimized digital components, the design ensures low latency, high processing speed, and efficient hardware utilization. Overall, this project demonstrates the practical application of digital signal processing techniques in everyday consumer electronics, improving user experience through intelligent noise cancellation.
 
 Objectives:
+
 To implement the ANC filter using digital design techniques with a 16-bit fixed-point architecture suitable for FPGA-based systems.
+
 To develop a real-time adaptive filtering system that continuously updates filter coefficients to minimize the error signal.
+
 To reduce computational complexity and latency by employing pipelined structures and efficient normalization techniques.
+
 To enhance practical applicability by targeting integration of the ANC system in real-world applications such as  noise-cancelling headphones.
 
 Design Justification:
